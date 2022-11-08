@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 # takeover - subdomain takeover finder
-# coded by M'hamed (@m4ll0k) Outaadi
+# modded by trhacknon (@trhacknon) anonymous
 
 import os
 import json
@@ -167,8 +167,8 @@ def banner():
     print("  C oo   ---------------")
     print(" _( ^)  |T|A|K|E|O|V|E|R|")
     print("/   ~\\  ----------------")
-    print("#> by M'hamed (@m4ll0k) Outaadi")
-    print("#> http://github.com/m4ll0k")
+    print("#> by trhacknon (@trhacknon) trhacknon")
+    print("#> http://github.com/trhacknon")
     print("-"*40)
 
 
