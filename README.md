@@ -1,7 +1,7 @@
 # Takeover - Subdomain Takeover Finder v0.2
 
 ![screen](https://i.imgur.com/rggaoj8.png)
-![screen2](https://raw.githubusercontent.com/m4ll0k/takeover/master/screen2.png)
+![screen2](https://raw.githubusercontent.com/trhacknon/takeover/master/screen2.png)
 
 Sub-domain takeover vulnerability occur when a sub-domain (**subdomain.example.com**) is pointing to a service (e.g: **GitHub**, **AWS/S3**,..) that has been removed or deleted. This allows an attacker to set up a page on the service that was being used and point their page to that sub-domain. For example, if **subdomain.example.com** was pointing to a GitHub page and the user decided to delete their GitHub page, an attacker can now create a GitHub page, add a **CNAME** file containing **subdomain.example.com**, and claim **subdomain.example.com**. For more information: [here](https://labs.detectify.com/2014/10/21/hostile-subdomain-takeover-using-herokugithubdesk-more/)
 
@@ -65,7 +65,7 @@ Sub-domain takeover vulnerability occur when a sub-domain (**subdomain.example.c
 ## Installation:
 
 ```shell
-git clone https://github.com/m4ll0k/takeover.git
+git clone https://github.com/trhacknon/takeover.git
 cd takeover
 python3 setup.py install
 ```
@@ -73,7 +73,7 @@ python3 setup.py install
 **or:**
 
 ```
-wget -q https://raw.githubusercontent.com/m4ll0k/takeover/master/takeover.py && python3 takeover.py
+wget -q https://raw.githubusercontent.com/trhacknon/takeover/master/takeover.py && python3 takeover.py
 ```
 
 ## Usage
